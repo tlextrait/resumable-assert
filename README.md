@@ -114,9 +114,9 @@ public func assert(
   function: StaticString = #function,
   line: UInt = #line
 ) {
-#ifdef DEBUG
+#if DEBUG
   if !condition() {
-    NSLog("Assertion failed:" + " \(message()):" +
+    print("Assertion failed:" + " \(message()):" +
           " file \(file.description), function \(function.description), line \(line)")
     ResumableAssertDebugTrap()
   }
