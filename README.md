@@ -152,6 +152,10 @@ Include or import the header:
 #import "path/to/ResumableAssert/ResumableAssert.h"
 ```
 
+### Swift Package Manager
+
+Add the Swift Package: https://github.com/tlextrait/resumable-assert
+
 ### CocoaPods
 
 To use `ResumableAssert` for Objective-C, add the following to your `Podfile`:
