@@ -18,7 +18,7 @@ let package = Package(
         .target(
             name: "ResumableAssert",
             path: "Sources/ResumableAssert",
-            publicHeadersPath: "ResumableAssert/include",
+            publicHeadersPath: "include",
             swiftSettings: [
                 .unsafeFlags([
                     "-Werror",
